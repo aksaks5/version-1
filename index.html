@@ -1,149 +1,102 @@
 <!doctype html>
-<html>
+<html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Portfolio version 1</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Chiness Cuisine</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href='https://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
   </head>
+<body>
+  <header>
+    <nav id="header-nav" class="navbar navbar-default">
+      <div class="container">
+        <div class="navbar-header">
+          <a href="index.html" class="pull-left visible-md visible-lg">
+            <div id="logo-img" alt="Logo image"></div>
+          </a>
+
+          <div class="navbar-brand">
+            <a href="index.html"><h1>Chinese Cuisine</h1></a>
+            <p>Eat What You Like</p>
+
+    </div>
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false"> 
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          </button>
+        </div>
+
+        <div id="collapsable-nav" class="collapse navbar-collapse">
+          <ul id="nav-list" class="nav navbar-nav navbar-right">
+            <li>
+              
+              <a href="menu-categories.html">
+                <span class="glyphicon glyphicon-plus"></span><br class="hidden-xs"> Menu</a>
+              </li>
+              
+              
+
+                <li id="phone" class="hidden-xs">
+                  <a href="tel:021-908-4567">
+                    <span>021-908-4567</span></a><div>* We Delivers</div>
+                  </li>
+                </ul><!-- #nav-list -->
+              </div><!-- .collapse .navbar-collapse -->
+            </div>
+ </nav> 
+  </header>
+
   <body>
-    <h1><center>Hello world!</center></h1>
-    <p><center>This is my first time learning development!</center></p>
-  </body>
+    <h1><center>Our Menu</center></h1></body>
+
+
     <style>
-      /* Add some styling for responsiveness */
-      .container {
-        display: flex;
-        float: left;
-        flex-wrap: wrap;
-        width: 100%;
-      }
       .box {
-        flex-basis: calc(20% - 20px);
-        margin: 10px;
-        padding: 20px;
-        text-align: center;
+        background-color: #36413E;
         height: 200px;
-        box-align: center;
+        text-align: center;
+        padding-top: 50px;
+        padding-bottom: 10px;
+        margin-top: 10px;
+        margin-bottom: 40px;
+
       }
 
-      <style>
+      
 
-
-
-/* Simple Responsive Framework. */
-.row {
-  width: 100%;
-}
-
-/********** Large devices only **********/
-@media (min-width: 1200px) {
-  .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
-    float: left;
-  
-
-
-  }
-  .col-lg-1 {
-    width: 8.33%;
-  }
-  .col-lg-2 {
-    width: 16.66%;
-  }
-  .col-lg-3 {
-    width: 25%;
-  }
-  .col-lg-4 {
-    width: 33.33%;
-  }
-  .col-lg-5 {
-    width: 41.66%;
-  }
-  .col-lg-6 {
-    width: 50%;
-  }
-  .col-lg-7 {
-    width: 58.33%;
-  }
-  .col-lg-8 {
-    width: 66.66%;
-  }
-  .col-lg-9 {
-    width: 74.99%;
-  }
-  .col-lg-10 {
-    width: 83.33%;
-  }
-  .col-lg-11 {
-    width: 91.66%;
-  }
-  .col-lg-12 {
-    width: 100%;
-  }
-}
-
-/********** Medium devices only **********/
-@media (min-width: 992px) and (max-width: 1199px) {
-  .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
-    float: left;
-    
-  
-    
-  }
-  .col-md-1 {
-    width: 8.33%;
-  }
-  .col-md-2 {
-    width: 16.66%;
-  }
-  .col-md-3 {
-    width: 25%;
-  }
-  .col-md-4 {
-    width: 33.33%;
-  }
-  .col-md-5 {
-    width: 41.66%;
-  }
-  .col-md-6 {
-    width: 50%;
-  }
-  .col-md-7 {
-    width: 58.33%;
-  }
-  .col-md-8 {
-    width: 66.66%;
-  }
-  .col-md-9 {
-    width: 74.99%;
-  }
-  .col-md-10 {
-    width: 83.33%;
-  }
-  .col-md-11 {
-    width: 91.66%;
-  }
-  .col-md-12 {
-    width: 100%;
-  }
-}
-
-</style>
     </style>
-  </head>
+
   <body>
-   
     <div class="container">
-      <div class="box" style="background-color: lightblue;">
-        <h2>Sushi</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed malesuada congue nisi, at scelerisque nunc bibendum eu.</p>
-      </div>
-      <div class="box" style="background-color: lightgreen;">
-        <h2>Chicken</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed malesuada congue nisi, at scelerisque nunc bibendum eu.</p>
-      </div>
-      <div class="box" style="background-color: lightcoral;">
-        <h2>Fish</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed malesuada congue nisi, at scelerisque nunc bibendum eu.</p>
+      <div class="row">
+        <div class="col-4 box">
+          <h1>Noodles</h1>
+          <h6><center>noodle, a cooked egg-and-flour paste prominent in European and Asian cuisine, generally distinguished from pasta by its elongated ribbonlike form. Noodles are commonly used to add body and flavour to broth soups. They are commonly boiled or sautéed and served with sauces and meats or baked in casseroles.</center></h6>
+        </div>
+        <div class="col-4 box">
+          <h1>Chinese</h1>
+          <h6><center>Chinese food, rich and colorful, has diversified color, aromatic flavor, and excellent taste as its main features. With these three characteristics, it is not only tasty but also a work of art for people to appreciate</center></h6>
+        </div>
+        <div class="col-4 box">
+          <h1>Cuisine</h1>
+          <h6><center>A cuisine is a style of cooking characterized by distinctive ingredients, techniques and dishes, and usually associated with a specific culture or geographic region. Regional food preparation techniques, customs, and ingredients combine to enable dishes unique to a region.</center></h6>
+        </div>
       </div>
     </div>
   </body>
+
+
+
+
+  <!-- jQuery (Bootstrap JS plugins depend on it) -->
+  <script src="js/jquery-2.1.4.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
 </html>
